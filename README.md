@@ -7,4 +7,4 @@
   * ts-node
 * tsconfig.json 설정파일에서 lib에 "dom"을 추가하지 않으면 console.log를 사용할 수 없다
 * 아래 명령어로 개발스크립트를 등록하면 편하다
-    > "nodemon --exec ./src/app.ts --watch src"
+    > "nodemon --exec ts-node src/app.ts --watch src"
