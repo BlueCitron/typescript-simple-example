@@ -1,0 +1,15 @@
+{
+  "name": "typescript-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "start": "nodemon --exec ts-node src/app.ts --watch src"
+  },
+  "devDependencies": {
+    "ts-node": "^8.8.1"
+  }
+}
